@@ -109,10 +109,10 @@ fake-news-detection-ml-dl/
 │   └── ml_dl_fake_news_detection.ipynb
 │
 ├── reports/
-│   └── finalreport.pdf
+│   └── 2165_A_MLL_Project_Report.pdf
 │
 ├── slides/
-│   └── finalslide.pptx
+│   └── 2165_A_MLL_Project_Slide.pptx
 │
 ├── requirements.txt
 ├── README.md
