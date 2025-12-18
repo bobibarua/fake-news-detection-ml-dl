@@ -122,18 +122,29 @@ fake-news-detection-ml-dl/
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
+Follow these steps to run the project and explore the experiments:
+
+1. **Clone the repository**  
 ```bash
-# Clone repository
 git clone https://github.com/bobibarua/fake-news-detection-ml-dl.git
 cd fake-news-detection-ml-dl
-
-# Install dependencies
+Install dependencies
+Make sure you have Python 3.x installed. Then run:
 pip install -r requirements.txt
+Ensure that requirements.txt includes all necessary packages such as pandas, numpy, scikit-learn, tensorflow, matplotlib, seaborn, wordcloud, etc.
+Open and run the notebook
+jupyter notebook notebooks/ml_dl_fake_news_detection.ipynb
+This notebook contains the full workflow:
+Data loading and preprocessing
+ML & DL model training and evaluation
+Visualizations such as word clouds and confusion matrices
+View the deployed app (optional)
+The Streamlit app is deployed separately and can be accessed here:
+Live Demo
+Note: This repository contains the training notebook, report, and slides. The deployment files for Streamlit are maintained in a separate repository.
 
-# Run experiments
-jupyter notebook
 ```
 
 ---
